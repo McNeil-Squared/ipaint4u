@@ -211,6 +211,17 @@ input, textarea {
     margin-left: 50px;
 }
 
-
+#formSubmission {
+    width: 77%;
+    border: 3px solid rgb(146, 180, 87);
+    margin-left: 1.8em;
+    margin-bottom: 1.0em;
+    padding: 0.5em;
+    text-align: center;
+    font-weight: 600;
+    color: #0072b3;
+    border-radius: 5px;
+    font-size: 1.25em;
+}
 
 
