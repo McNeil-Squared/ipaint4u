@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,10 +13,10 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/public/css/style.css">    
+    <link rel="stylesheet" href="css/style.css">    
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <script src="/public/js/jquery-3.1.1.min.js"></script>
-    <script src="/public/js/form.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/form.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
     
@@ -24,20 +24,20 @@
     <header class="black">
         <nav class="text-center">
             <ul>
-               <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#testamonials">Testimonials</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+               <a href="#home"><li>Home</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#testamonials"><li>Testimonials</li></a>
+                <a href="#contact"><li>Contact Us</li></a>
             </ul>
         </nav>
         <div class="row">
             <div class="col-xs-3">
             </div>
             <div class="col-xs-6 text-center">
-                <img src="images/logo_feb.png" alt="ipaint4u logo" class="largeLogo">
+                <img src="/images/ipaintlogo.jpg" alt="ipaint4u logo" class="largeLogo">
             </div>
             <div class="col-xs-3 text-center">
-                <a href="#contact"><img src="images/schedule.png" alt="schedule an estimate" id="estimate"></a>
+                <a href="#contact"><img src="/images/schedule.png" alt="schedule an estimate" id="estimate"></a>
             </div>
         </div>
         <div class="pantoneGreen tall">
@@ -46,22 +46,22 @@
     
     <div class="row text-center" id="negativeMargin">
         <div class="col-xs-3">
-            <a href="#projects" class="blackText"><img src="images/projects_filled.png" alt="Recent projects completed by our crew">
+             <a href="#projects" class="blackText"><img src="/images/projects.png" alt="Recent projects completed by our crew">
             <h3>Projects</h3>
              <p>Recent projects completed by our crew.</p></a>
         </div>
         <div class="col-xs-3">
-             <img src="images/services_filled.png" alt="Services">
+             <img src="/images/services.png" alt="Services">
              <h3>Services</h3>
              <p>Things we do well.</p>
         </div>
         <div class="col-xs-3">
-             <img src="images/blog_filled.png" alt="blog">
+             <img src="/images/blog.png" alt="blog">
              <h3>Blog</h3>
              <p>Ask a handyman and more!</p>
         </div>
         <div class="col-xs-3">
-             <a href="#testamonials" class="blackText"><img src="images/testimonial_filled.png" alt="testimonials">
+             <a href="#testamonials" class="blackText"><img src="/images/testamonials.png" alt="testimonials">
              <h3>Testimonials</h3>
              <p class="marginBottom">ipaint4u prides itself in delighting its clients. Click to see what our clients have said about their experiences with ipaint4u.</p></a>
         </div>
@@ -81,27 +81,28 @@
     <div class="lightGray">
         <div class="row">
             <div class="col-xs-6 text-center">
-                    <img src="images/beforep_1.png" alt="Before painting house 1" class="photoMargin1">
-                    <img src="images/afterp_1.png" alt="After painting house 1" class="photoMargin2" >
+              <!--  <img src="/images/smProject.png" class="smPhotoIcons"> -->
+                    <img src="/images/placholder.png" alt="Before painting house 1" class="photoMargin1">
+                    <img src="/images/placholder.png" alt="After painting house 1" class="photoMargin2" >
             </div>
             <div class="col-xs-6 text-center">
-                    <img src="images/before_1.png" alt="Before project 1" class="photoMargin1">
-                    <img src="images/after_1.png" alt="After project 1" class="photoMargin2">
+                    <img src="/images/placholder.png" alt="Before project 1" class="photoMargin1">
+                    <img src="/images/placholder.png" alt="After project 1" class="photoMargin2">
             </div>       
         </div>
         <div class="row">
             <div class="col-xs-6 text-center">
-                    <img src="images/beforep_2.png" alt="Before painting house 2" class="photoMargin3">
-                    <img src="images/afterp_2.png" alt="After painting house 2" class="photoMargin4" >
+                    <img src="/images/placholder.png" alt="Before painting house 2" class="photoMargin3">
+                    <img src="/images/placholder.png" alt="After painting house 2" class="photoMargin4" >
             </div>
             <div class="col-xs-6 text-center">
-                    <img src="images/before_2.png" alt="Before project 2" class="photoMargin3">
-                    <img src="images/after_2.png" alt="After project 2" class="photoMargin4">
+                    <img src="/images/placholder.png" alt="Before project 2" class="photoMargin3">
+                    <img src="/images/placholder.png" alt="After project 2" class="photoMargin4">
             </div>       
         </div>
     </div>
     <div id="sherDiv">
-        <img src="/public/images/sherwin-williams-logo.jpg" alt="Sherwin Williams logo" class="medLogo blockDisplay">
+        <img src="images/sherwin-williams-logo.jpg" alt="Sherwin Williams logo" class="medLogo blockDisplay">
         <p class="blockDisplay smallPara">Download the <a href="https://www.sherwin-williams.com/homeowners/color/try-on-colors/colorsnap-mobile" target="_blank">ColorSnap® Visualizer </a> app for iPhone and Android or try <a href="https://www.sherwin-williams.com/visualizer#/active/default" target="_blank">ColorSnap® Visualizer for Web</a> on your tablet or desktop to upload a photo and paint the walls in a virtual world!</p>
     </div>
     <div class="black">
@@ -123,28 +124,28 @@
             <div class="col-xs-4">
                 <div class="about2">
                     <p class="whiteText blockDisplay blockPadding">ipaint4ullc@gmail.com</p>
-                    <img src="images/email.png" alt="email button">
+                    <img src="/images/email.png" alt="email button">
                 </div>
                 <div class="marginBottom iconAlign">
                     <p class="whiteText blockDisplay blockPadding">C  843-505-1717<br>
                     O  843-505-1716</p>
-                    <img src="images/phone.png" alt="phone button" class="phone">
+                    <img src="/images/phone.png" alt="phone button" class="phone">
                 </div>
                 <div class="marginBottom iconAlign">
                     <p class="whiteText blockDisplay blockPadding">Hardeeville, SC</p>
-                    <img src="images/house.png" alt="address button">
+                    <img src="/images/house.png" alt="address button">
                 </div>
             </div>
             <div class="col-xs-4 about2">
-                <a href="#" target="_blank"><img src="images/googleplus.png " alt="connect with g+" class="iconMargin"></a>
-                <a href="https://www.facebook.com/ipaint4ullc/" target="_blank"><img src="images/facebook.png" alt="connect with facebook" class="iconMargin"></a>
-                <a href="#" target="_blank"><img src="images/instagram.png" alt="connect with instagram"></a>
+                <img src="images/googleplus.png " alt="connect with g+" class="iconMargin">
+                <img src="images/facebook.png" alt="connect with facebook" class="iconMargin">
+                <img src="images/instagram.png" alt="connect with instagram">
             </div>
         </div>  
     </div>
     <div class="tall pantoneGreen"></div>
     <div id="testDiv">
-        <a id="testamonials"><img src="images/testimonial.png" alt="testimonials" class="marginBottom"></a>
+        <a id="testamonials"><img src="/images/testimonial.png" alt="testimonials" class="marginBottom"></a>
         <p class="lightGray noBottom">“I would like to highly recommend James Klein as a painter.  James is extremely professional, hardworking and honest, plus a pleasure to have working in my home. I asked for and received, extremely well itemized quotes in a timely manner for the different rooms that I wanted painted in my home. Each quote listed all the work to be done and the amount of paint to be used.  James arrived promptly each day at the time he said he would arrive and continued until the job was finished or it was the end of the day.  He worked fast, neatly and cleanly. I have had my home painted a number of times, and this was by far, my most pleasant experience.”<br><br>~Ann S.</p>
         <p class="grey noBottom whiteText">“James Klein has been doing different jobs for me for 4 or 5 years.  He has painted outside and inside, repaired fascia. He is always on time and cleans up when he is finished. I wouldn't hesitate to ask him to do any type of work on my house. I live in Moss Creek and I know he has done work for many other people in here. Don't hesitate to give him a call.”<br><br>~Linda M.</p>
         <p class="lightGray noBottom">“I am writing this letter in reference to James Klein. I had the privilege of having him dry wall two additions in my home. He was prompt, courteous, and professional. He made sure that the dust would be contained in the work area. Each room was left clean and tidy at the end of the day. The project was completed on time. I have recommended him to my friends and those that have used him were very satisfied.”<br><br>~Barbara R.</p>
@@ -178,20 +179,20 @@
                 </div>
             </div>          
             <div class="col-xs-3 text-right">
-                <img src="images/logo_feb.png" alt="ipaint4u logo" class="largeLogo">
+                <img src="images/ipaintlogo.jpg" alt="ipaint4u logo" class="largeLogo">
                 <div class="marginBottom">
                     <p class="whiteText blockDisplay blockPadding">ipaint4ullc@gmail.com</p>
-                    <img src="/public/images/email.png" alt="email button" class="iconMargin">
+                    <img src="images/email.png" alt="email button" class="iconMargin">
                 </div>
                 <div class="marginBottom">
-                    <p class="whiteText blockDisplay blockPadding">C  843-505-1717<br>O  843-505-1716</p>                 <img src="/public/images/phone.png" alt="phone button" class="phone iconMargin">
+                    <p class="whiteText blockDisplay blockPadding">C  843-505-1717<br>O  843-505-1716</p>                 <img src="images/phone.png" alt="phone button" class="phone iconMargin">
                 </div>
                 <div class="marginBottom">
                     <p class="whiteText blockDisplay blockPadding">Hardeeville, SC</p>
-                    <img src="/public/images/house.png" alt="address button" class="iconMargin" >
+                    <img src="images/house.png" alt="address button" class="iconMargin" >
                 </div>
                 <div class="marginBottom iconMargin">
-                <img src="images/tools.png" alt="tool graphic"></div>
+                <img src="/images/tools.png" alt="tool graphic"></div>
             </div>
         </div>
     </div>
@@ -201,7 +202,7 @@
                 <p>Copyright 2017 ipaint4u</p>
             </div>
             <div class="col-xs-4">
-                <p class="text-center">Designed by <a href="https://www.facebook.com/Julie-Murphy-251651765263247/" target="_blank">Julie Murphy</a></p>
+                <p class="text-center">Designed by <a href="https://www.facebook.com/julie.roatmurphy">Julie Murphy</a></p>
             </div>
             <div class="col-xs-4">
                 <p class="text-right">powered by <a href="https://www.smellydogcoding.com">Smelly Dog Coding</a></p>
