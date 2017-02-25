@@ -20,8 +20,8 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
 
 // pug template engine (formerly Jade)
-// app.set('view engine','html');
-// app.set('views', __dirname + '/views');
+ app.set('view engine','pug');
+ app.set('views', __dirname + '/views');
 
 app.get('/', function(req,res) {
   res.sendFile('index.html');
