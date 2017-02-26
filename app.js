@@ -24,7 +24,7 @@ app.use(express.static(__dirname + '/views'));
  app.set('views', __dirname + '/views');
 
 app.get('/', function(req,res) {
-  res.sendFile('index.html');
+  res.render('index');
 });
 
 app.post('/send', function(req,res) {
