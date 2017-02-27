@@ -172,6 +172,10 @@ input, textarea {
     height: 50px;
 }
 
+#visual {
+    padding-right: 8px;
+}
+
 /****** Misc ******/
 
 #negativeMargin {
