@@ -39,7 +39,7 @@ app.post('/send', function(req,res) {
   const options = {
     from: 'SmellydogCodingNoReply@gmail.com',
     to: req.body.email,
-    cc: 'ipaint4u@gmail.com',
+    cc: 'ipaint4ullc@gmail.com',
     subject: req.body.subject,
     text: 'This is a message from ' + req.body.name + ': ' + req.body.message
   }
