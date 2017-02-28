@@ -27,6 +27,10 @@ app.get('/', function(req,res) {
   res.render('index');
 });
 
+app.get('/portfolio', function(req,res) {
+  res.render('portfolio', {title: 'Our Work'});
+});
+
 app.post('/send', function(req,res) {
   console.log(req.body.name);
   const transporter = nodemailer.createTransport({
