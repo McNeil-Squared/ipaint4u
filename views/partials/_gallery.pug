@@ -1,5 +1,5 @@
 div.galleria
-    img.photoMargin3(src="images/beforep_2.png" alt="Before painting house 2")
-    img.photoMargin4(src="images/afterp_2.png" alt="After painting house 2")
-    img.photoMargin3(src="images/before_2.png" alt="Before project 2")
-    img.photoMargin4(src="images/after_2.png" alt="After project 2")
+    ul
+      each image in gallery
+        li
+          img(src=image.src alt=image.alt)

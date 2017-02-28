@@ -29,12 +29,12 @@ app.get('/', function(req,res) {
 });
 
 app.get('/portfolio', function(req,res) {
-  res.render('portfolio', {title: 'Our Work'});
+  res.render('portfolio', {title: 'Our Work', gallery: pics.gallery});
 });
 
-app.get('/test', function(req,res) {
+/*app.get('/test', function(req,res) {
   res.render('test', {gallery: pics.gallery});
-});
+});*/
 
 app.post('/send', function(req,res) {
   console.log(req.body.name);
