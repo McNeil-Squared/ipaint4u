@@ -11,6 +11,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser')
+const pics = require('./pics.js');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
@@ -29,6 +30,10 @@ app.get('/', function(req,res) {
 
 app.get('/portfolio', function(req,res) {
   res.render('portfolio', {title: 'Our Work'});
+});
+
+app.get('/test', function(req,res) {
+  res.render('test', {gallery: pics.gallery});
 });
 
 app.post('/send', function(req,res) {
