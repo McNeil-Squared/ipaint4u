@@ -1,5 +1,12 @@
-div.galleria
-    ul
-      each image in gallery
-        li
-          img(src=image.src alt=image.alt)
+div.lightGray.tal
+div.lightGray
+    div.row
+        div.col-xs-1
+        div.col-xs-10
+            div.galleria
+                ul
+                  each image in gallery
+                    li.galleryPhoto
+                      img(src=image.src alt=image.alt)
+        div.col-xs-1
+div.pantoneGreen.tall
